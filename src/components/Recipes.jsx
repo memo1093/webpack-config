@@ -23,6 +23,13 @@ const Recipes = () => {
       <button onClick={() => setRecipe(elvenGauntletRecipe)}>
         Elven Gauntlet Recipe
       </button>
+      <ul>
+        {Object.keys(recipe).map((material) => (
+          <li key={material}>
+            {material}: {recipe[material]}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

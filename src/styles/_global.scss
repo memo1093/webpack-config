@@ -3,7 +3,7 @@ body{
     margin:0;
     background-color: variables.$bg;
     color: var(--text);
-    font-size: 100px;
+    font-size: 48px;
 }
 main{
     display:flex;
@@ -12,4 +12,8 @@ main{
 }
 button{
     font-size: 1.5rem;
+}
+ul{
+    list-style-image: url("../images/sword-32x32.png");
+    font-size: 1.2rem;
 }
